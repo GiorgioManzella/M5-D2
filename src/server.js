@@ -1,13 +1,13 @@
 // const express = require("express") // OLD SYNTAX
 import express from "express" // <-- NEW IMPORT SYNTAX (remember to add "type": "module" to package.json to use it!)
 import listEndpoints from 'express-list-endpoints'
-import servicesRouter from "./services/index.js"
+import authorsRouter from "./authors/index.js"
 
 const server = express()
 const port = 3001
 
 
-server.use("/services", servicesRouter)
+server.use("/authors", authorsRouter)
 
 server.listen(port, () => {
 
