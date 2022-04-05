@@ -8,7 +8,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "giorgio": "nodemon -e js ./src/server.js"
-    
   },
   "repository": {
     "type": "git",
@@ -22,7 +21,8 @@
   },
   "homepage": "https://github.com/GiorgioManzella/homewwork#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "express-list-endpoints": "^6.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
